@@ -1,5 +1,7 @@
 # intl-pluralrules
 
+A fork of [intl-pluralrules](https://github.com/eemeli/intl-pluralrules) for cross-platform usage.
+
 A spec-compliant implementation & polyfill for [Intl.PluralRules],
 including the `selectRange(start, end)` method introduced in [Intl.NumberFormat v3].
 Also useful if you need proper support for [`minimumFractionDigits`],
@@ -51,8 +53,9 @@ new PluralRules('fr').selectRange(0, 1) // 'one'
 In order to support all available locales, their data needs to be included in
 the package. This means that when minified and gzipped, the above-documented
 usage adds about 7kB to your application's production size. If this is a
-concern, you can use `intl-pluralrules/factory` and [make-plural] to build a
-PluralRules class with locale support limited to only what you actually use.
+concern, you can use `intl-pluralrules/factory` and original [make-plural] to 
+build a PluralRules class with locale support limited to only what you 
+actually use.
 
 [make-plural]: https://www.npmjs.com/package/make-plural
 

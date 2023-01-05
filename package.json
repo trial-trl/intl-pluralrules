@@ -16,7 +16,8 @@
   "files": [
     "factory.*",
     "plural-rules.*",
-    "polyfill.*"
+    "polyfill.*",
+    "pseudo-number-format.*"
   ],
   "type": "commonjs",
   "main": "./polyfill.js",
